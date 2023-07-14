@@ -1,0 +1,403 @@
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.elaqe-linki-basda {
+  text-decoration: none;
+  color: hsl(270, 9%, 17%);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+.VIEW-PLANS {
+  border: hsl(256, 26%, 20%) solid;
+  padding: 9px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  font-weight: 700;
+  color: hsl(270, 9%, 17%);
+  cursor: pointer;
+}
+.VIEW-PLANS:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+}
+.linkler {
+  display: flex;
+  gap: 40px;
+}
+.birinci {
+  background-color: hsl(256, 26%, 20%);
+  padding-left: 150px;
+  padding-top: 100px;
+  display: flex;
+  gap: 70px;
+  height: 500px;
+}
+.xett-bir {
+  width: 170px;
+  border: white solid 1px;
+  margin-left: 0px;
+  margin-bottom: 60px;
+}
+.Humanizing {
+  font-family: "DM Serif Display", serif;
+  color: white;
+  font-weight: 400;
+  font-size: 70px;
+}
+.yazilar {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+}
+.VIEW-PLANS-ikinci {
+  margin-bottom: 140px;
+  margin-top: 35px;
+  width: 150px;
+  background-color: hsl(256, 26%, 20%);
+  border: white solid;
+  color: white;
+}
+.VIEW-PLANS-ikinci:hover {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+  border: hsl(256, 26%, 20%) solid;
+}
+.Get-your-life {
+  color: white;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.aile-sekil {
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+.xett-iki {
+  width: 170px;
+  border: hsl(273, 4%, 51%) solid 1px;
+  margin-left: 0px;
+}
+.ikinci {
+  margin-top: 300px;
+  padding-left: 150px;
+}
+.We-are-different {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 70px;
+}
+.izahatlar {
+  display: flex;
+  gap: 30px;
+  margin-right: 130px;
+}
+.headingler {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+.aciqlama {
+  color: hsl(273, 4%, 51%);
+}
+.ucuncu {
+  margin-top: 200px;
+  background-color: hsl(256, 26%, 20%);
+  padding: 90px;
+  height: 100px;
+  margin: 150px;
+  display: flex;
+  align-items: center;
+}
+.HOW-WE-WORK {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  border: white solid;
+  margin-left: 250px;
+  width: 250px;
+  height: 38px;
+  cursor: pointer;
+}
+.HOW-WE-WORK:hover {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+  border: hsl(256, 26%, 20%) solid;
+}
+.dorduncu {
+  background-color: hsl(0, 0%, 98%);
+  padding-bottom: 100px;
+}
+.logo-applar {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 40px;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+.applar {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+.xett-uc {
+  margin-left: 150px;
+  margin-right: 165px;
+}
+.elaqe-linki {
+  text-decoration: none;
+  color: hsl(270, 9%, 17%);
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+h3 {
+  color: hsl(273, 4%, 51%);
+  font-size: 14px;
+}
+.elaqeler {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-top: 40px;
+  margin-right: 150px;
+}
+.elaqe {
+  display: flex;
+  flex-direction: column;
+}
+.menyu {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .birinci,
+  .ikinci {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .navbar,
+  .logo-applar,
+  .xett-uc,
+  .elaqeler,
+  .ucuncu {
+    margin-left: 100px;
+  }
+  .izahat {
+    width: 300px;
+  }
+  .Humanizing {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1320px) {
+  .aile-sekil {
+    width: 400px;
+    height: 440px;
+  }
+  .ikinci {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1150px) {
+  .HOW-WE-WORK {
+    margin-left: 11%;
+  }
+}
+@media (max-width: 963px) {
+  .aile-sekil {
+    display: none;
+  }
+  .birinci {
+    height: 400px;
+  }
+  .izahatlar {
+    margin-right: 0px;
+  }
+  .Humanizing {
+    font-size: 30px;
+  }
+  .ucuncu {
+    padding: 40px;
+  }
+}
+@media (max-width: 840px) {
+  .linkler {
+    display: none;
+  }
+  .menyu {
+    display: inline;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .menyu-icon {
+    width: 50px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .izahat {
+    width: 200px;
+  }
+  .izahatlar {
+    display: grid;
+    grid-template-columns: 250px 250px;
+  }
+}
+@media (max-width: 660px) {
+  .elaqeler {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    gap: 30px;
+  }
+  .izahatlar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 690px) {
+  .ucuncu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 80px;
+    align-items: center;
+  }
+  .HOW-WE-WORK {
+    width: 130px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 0%;
+  }
+}
+@media (max-width: 600px) {
+  .ucuncu {
+    padding-bottom: 130px;
+    margin: 50px;
+  }
+}
+@media (max-width: 460px) {
+  .birinci,
+  .ikinci {
+    padding-left: 50px;
+    padding-right: 100px;
+  }
+  .navbar,
+  .logo-applar,
+  .xett-uc,
+  .elaqeler,
+  .ucuncu {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 558px) {
+  .logo-applar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    gap: 20px;
+  }
+
+  .elaqeler {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+  }
+}
+@media (max-width: 375px) {
+  .birinci {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    padding-left: 0px;
+    gap: 0px;
+  }
+  .aile-sekil {
+    width: 358px;
+    position: relative;
+    left: 0px;
+  }
+  .yazilar {
+    padding-left: 10px;
+    width: 358px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+  }
+  .Humanizing {
+    font-size: 40px;
+  }
+  .xett-bir {
+    display: none;
+  }
+  .Get-your-life {
+    font-size: 20px;
+    width: 300px;
+  }
+  .ikinci {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 200px;
+    padding-right: 30px;
+  }
+  .xett-iki {
+    margin-left: 100px;
+  }
+  .We-are-different {
+    font-size: 50px;
+    padding-left: 15px;
+  }
+  .izahatlat {
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    padding-left: 15px;
+  }
+  .ucuncu {
+    text-align: center;
+    margin-left: 15px;
+    width: 265px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+  .HOW-WE-WORK {
+    margin-left: 0px;
+    width: 150px;
+    margin-top: 40px;
+  }
+}
+.menyu-link {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 9px;
+  border: 1px solid hsl(256, 26%, 20%);
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-bottom: 30px;
+}
+.hidden{
+  display: none;
+}
